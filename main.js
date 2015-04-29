@@ -1,11 +1,11 @@
-window.onload = function() {
- 
-	$( ".dan" ).click(function() {
-    	alert( "Hey you clicked on me" );
+$(document).ready(function(){
+	$('.dan').click(function() {
+		alert("hey you clicked me");
 	});
+});
 
-    $( "#iwao" ).click(function() {
-    	$( "#iwao" ).hide();
+$(document).ready(function(){
+	$('#iwao').click(function() {
+		$('#iwao').hide();
 	});
-
-};
+});       
